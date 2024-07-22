@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription Plans</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        *{
+
+        margin:0;
+         padding: 0;
+         box-sizing: border-box;
+         font-family:Arial, Helvetica, sans-serif
+        }
+        .main1{
+            background: url(images/img14.webp);
+            height:400px;
+            width:100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+           padding-left:70px;
+           padding-top:100px;
+            color:white;
+            padding:50px;
+            position: absolute;
+    top: 0;
+    animation: fadeInDown 0.5s ease-in-out;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+        
+        .main1 button{
+            margin-top:70px;
+            width:250px;
+            height:50px;
+            background-color:blue;
+            color: white;
+            border-radius:30px;
+            border: none;
+            font-size:20px;
+        }
+        .main1 button:hover{
+            background:white;
+            color: black;
+            transform:scale(1.2);
+        
+        }
+        .main2{
+            margin-top:470px;
+            margin-left:px;
+            display: flex;
+            justify-content: center;
+        }
+        .main3 img:hover{
+            transform:scale(1.1);
+        }
+        .main3 h1{
+            margin-left:60px;
+        }
+
+        .main4{
+            margin-left:30px;
+            margin-top:50px;
+        }
+        .main5{
+            display: flex;
+            justify-content: space-between;
+            margin-top:100px;
+        }
+
+        .main6{
+            background-color: rgb(162, 234, 247);
+            height:200px;
+            width:400px;
+            border-radius:30px 30px 0px 0px;
+        }
+        .main6 h1{
+            text-align: center;
+           padding-top:30px;
+        }
+        .main6 h2{
+            text-align: center;
+        }
+        .main6 p{
+            text-align: center;
+            font-size:20px;
+            font-weight:700;
+        }
+        .main6 button{
+            background:rgb(7, 151, 247) ;
+            height:35px;
+            width:200px;
+            border-radius:30px;
+            border: none;
+            margin-left:115px;
+            font-size:20px;
+        }
+        .main7{
+            background-color: rgb(235, 242, 248);
+            display: flex;
+            height:100%;
+            padding-top:20px;
+            padding-left:20px;
+        }
+        .main7 i{
+           font-size:20px;
+           background: rgb(177, 245, 177);
+           height:30px;
+           width:30px;
+           border-radius:50%;
+          text-align: center;
+          
+        }
+        .main7 h3{
+            margin-left:10px;
+        }
+
+
+        .main8{
+            background-color:rgb(247, 247, 155);
+            height:200px;
+            width:400px;
+            border-radius:30px 30px 0px 0px;
+        }
+        .main8 h1{
+            text-align: center;
+           padding-top:30px;
+        }
+        .main8 h2{
+            text-align: center;
+        }
+        .main8 p{
+            text-align: center;
+            font-size:20px;
+            font-weight:700;
+        }
+        .main8 button{
+            background:rgb(255, 255, 0) ;
+            height:35px;
+            width:200px;
+            border-radius:30px;
+            border: none;
+            margin-left:115px;
+            font-size:20px;
+        }
+        .main9{
+            background-color: rgb(235, 242, 248);
+            display: flex;
+            height:100%;
+            padding-top:20px;
+            padding-left:20px;
+        }
+        .main9 i{
+           font-size:20px;
+           background: rgb(177, 245, 177);
+           height:30px;
+           width:30px;
+           border-radius:50%;
+          text-align: center;
+          
+        }
+
+        .main10{
+            background-color: rgb(248, 163, 220);
+            height:200px;
+            width:400px;
+            border-radius:30px 30px 0px 0px;
+        }
+        .main10 h1{
+            text-align: center;
+           padding-top:30px;
+        }
+        .main10 h2{
+            text-align: center;
+        }
+        .main10 p{
+            text-align: center;
+            font-size:20px;
+            font-weight:700;
+        }
+        .main10 button{
+            background:rgb(247, 1, 193) ;
+            height:35px;
+            width:200px;
+            border-radius:30px;
+            border: none;
+            margin-left:115px;
+            font-size:20px;
+        }
+        .main11{
+            background-color: rgb(235, 242, 248);
+            display: flex;
+            height:100%;
+            padding-top:20px;
+            padding-left:20px;
+        }
+        .main11 i{
+           font-size:20px;
+           background: rgb(177, 245, 177);
+           height:30px;
+           width:30px;
+           border-radius:50%;
+          text-align: center;
+          
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="main1">
+                 <h1>One-time recharge for 1 full year</h1><br>
+                 <h3>Recharge with a ₹3599 plan for a year full of<br>
+                  digital delights.</h3>
+                 <button>All Free Plans</button>
+       </div>
+
+         <div class="main2">
+            <div class="main3">
+                 <img src="images/img15.jpg"  height="250px" width="250px" style="border-radius:50%;"><br>
+                 <h1>Dr.siri</h1>
+            </div>
+            <div class="main4">
+                 <h1>Enjoy unlimited calls, SMS services and high-speed<br>
+                     internet with our best prepaid plans</h2>
+                 <h4> Refuel your digital life with Jio’s prepaid plans and experience uninterrupted connectivity<br>
+                     no matter where you are . tech offers the best prepaid mobile recharge plans that suit your<br>
+                      budget and requirements. Just recharge and start enjoying Autopay so that you do not <br>
+                      have to enter details every month and enjoy seamless connectivity.</h1>
+            </div>
+         </div>
+        <div class="main5">
+            <div class="main6">
+                     <h1>Login Now/Free For Month</h1><br>
+                     <h2>$00.00</h2>
+                     <p>Per Month</p>
+                    <button>Login Now</button>
+                <div class="main7">
+                    <i class="fa-solid fa-check"></i><h3>Free Data 30 days</h3><br>   
+                </div>   
+                <div class="sub1">
+                    <i class="fa-solid fa-check"></i><h3>Free Data 30 days</h3><br>      
+                </div>
+                
+                   
+            </div>
+
+       
+                <div class="main8">
+                     <h1>Login Now/Free For Month</h1><br>
+                     <h2>$00.00</h2>
+                     <p>Per Month</p>
+                    <button>Login Now</button>
+                <div class="main9">
+                    <i class="fa-solid fa-check"></i>
+                    <h3>Free Data 30 days</h3><br>
+
+                </div>   
+            </div>
+            <div class="main10">
+                     <h1>Login Now/Free For Month</h1><br>
+                     <h2>$00.00</h2>
+                     <p>Per Month</p>
+                    <button>Login Now</button>
+                <div class="main11">
+                    <i class="fa-solid fa-check"></i>
+                    <h3>Free Data 30 days</h3><br>
+
+                </div>   
+            </div>
+
+        </div>
+        
+    
+    </div>
+    
+</body>
+</html>
